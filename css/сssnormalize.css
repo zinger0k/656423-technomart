@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Cuprum', 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ffffff;
+  background-image: url("img/background.jpg");
+  background-position: top center;
+}
+a {
+  text-decoration: none;
+}
+.main-top-menu,
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.main-top-menu,
+.main-page-footer {
+    background-color: #293449;
+}
+.main-navigation,
+.down-cite-navigation,
+.down-navigation {
+    background-color: #32425c;
+}
+.about-us {
+    background-color: #f3f7f8;
+}
+.menu-list {
+    background-color: black;
+}
+.popular-items,
+.popular-dealers{
+    background-color: #f9f5f0;
+}
+.about-company {
+    background-color: black;
+}
+.about-us p {
+    color: #ee3643;
+}
+.user-buttons a {
+    color: black;
+}
+.user-buttons a:hover {
+    color: red;
+    background-color: yellow;
+}
+.top-menu-buttons,
+.user-buttons,
+.site-navigation,
+.menu-list{
+  list-style: none;
+}
+.down-navigation,
+.down-site-navigation {
+    list-style: none;
+}
+.down-site-navigation a {
+    color: white;
+    text-decoration: none;
+}
+.down-site-navigation a:hover {
+    background-color: yellow;}
+
+.top-menu-buttons a,
+.site-navigation a {
+    color: #ffffff;
+}
+/*hover : color="#212a3a" zakaz color="#5fbb2d"
+/*focus : color="#161d29" words color="#8b8e94" zakaz color="#518534"*/
+}
+.top-menu-buttons a:hover {
+    background-color: #212a3a;
+}
+.top-menu-buttons a:hover {
+    background-color: #5fbb2d;
+}
+.top-menu-buttons a:focus {
+    color: #8b8e94;
+    background-color: #161d29;
+}
+.top-menu-buttons input[order]:focus {
+    background-color: #518534;
+}
+.site-navigation a:hover {
+    color:black;
+    background-color: yellow;
+}
+.content {
+    background-color: black;
+}
+.menu-list {
+    list-style: none;
+}
+.menu-items p {
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    background-color: black;
+}
+.menu-items a {
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+}
+.menu-items a:hover {
+    color: red;
+        background-color: yellow;
+}
+.popular-items {
+    background-color:#f9f5f0
+}
+.popular-items h1 {
+    font-size:30px;
+    line-height:30px;
+    color: #32425c;
+}
+.popular-item p {
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.popular-dealer-list {
+    list-style: none;
+    text-decoration: none;
+}
+.popular-dealers h1 {
+    font-size:30px;
+    line-height:30px;
+    color: #32425c;
+}
+.down-cite-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  background-color: #32425c;
+}
+.down-navigation,
+.down-site-navigation {
+    list-style: none;
+}
+.down-site-navigation a {
+    text-decoration: none;
+}
+.down-site-navigation a:hover {
+    color: black;
+    background-color: yellow;
+}
