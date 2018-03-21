@@ -7,31 +7,50 @@
   <body>
 <header class="main-header">
 <section class="main-top-menu">
+    <h1 class="visually-hidden">Меню заказов
+    </h1>
         <a class="main-header-logo">
           <img src="img/index-logo.svg" width="368" height="153" alt="Логотип Техномарт">
         </a>
 <ul class="top-menu-buttons">
 <li>
 <label for="search"></label>
-    <input type="search" id="search" name="search" value="Поиск" img src="icon.search"></li>
-<li>
-<a class="menu-button" href="bookmark" value="Закладки 0">Закладки:0</a>
+    <input type="search" id="search" name="search" value="Поиск">
     </li>
-<li>
-    <a class="cart-button" href="cart" value="Корзина : 0">Корзина:0</a></li>
-<li>
-<label for="order"></label>
-    <input type="submit" id="order" name="order" value="Оформить заказ"></li></ul>
-      <section class="about-us">
-          <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-          <p>8 888 888 88 88</p>
-          <p>г.Санкт-Петербург, ул.Б.Конюшенная,д. 19/8</p></section>
-      <div class="user-log-buttons">
-          <input type="button" id="log-out" img src="forma_vixoda" alt="Выйти">
-          <a class="user-order" href="#">Мои заказы</a>
-          <a class="user-personal" href="#">Личный кабинет</a>
-    </div>
+<li class="top-menu-button">
+<a class="bookmark-button" href="bookmark" id="Закладки">Закладки:0</a>
+    </li>
+<li class="top-menu-button">
+    <a class="cart-button" href="cart" id="Корзина">Корзина:0</a>
+    </li>
+<li class="top-menu-button">
+    <a class="order-button" href="oreder">Оформить заказ"</a>
+    </li>
+    </ul>
     </section>
+    <section class="about-us">
+          <h1 class="visually-hidden">Информация о магазине
+          </h1>
+          <ul class="main-info">
+              <li class="information">
+                  <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+              </li>
+              <li class="contacts">
+                  <p>8 888 888 88 88</p>
+                  <p>г.Санкт-Петербург, ул.Б.Конюшенная,д. 19/8</p>
+              </li>
+          </ul></section>
+      <ul class="user-buttons">
+          <li class="about-user">
+              <a class="about" href="about.html">Равшан Джамшутович</a>
+          </li>
+          <li class="personal-buttons">
+              <a class="user-order" href="#">Мои заказы</a>
+          </li>
+          <li class="personal-buttons">
+              <a class="user-personal" href="#">Личный кабинет</a>
+          </li>
+          </ul>
     </header>
       <nav class="main-navigation">
       <ul class="site-navigation">
@@ -40,7 +59,7 @@
           <li><a href="catalog.html">Каталог</a></li>
           <li><a href="news.html">Новости</a></li>
           <li><a href="sale.html">Спецпредложения</a></li>
-          <li><a href="dostavka.html">Доставка</a></li>
+          <li><a href="delivery.html">Доставка</a></li>
           <li><a href="contacts.html">Контакты</a></li>
           </ul>
           </nav>
@@ -74,127 +93,209 @@
 <li class="checkbox-item">
 <input type="checkbox" id="item-dealer">Hitachi</li>
 </ul>
-<label for="power-type-acc">
-<h2>Питание:</h2>
-<input type="radio" id="power-type-acc" checked>Аккумуляторные</label>
-<label for="power-type-set">
-<input type="radio" id="power-type-acc">Сетевые</label>
-</fieldset>
-<fieldset>
+    <label for="power-type-acc"><h2>Питание:</h2></label>
+    <ul class="radios">
+    <li class="radio-item">
+        <input type="radio" id="power-type-acc">Аккумуляторные</li>
+    <li class="radio-item">
+        <input type="radio" id="power-type-acc">Сетевые</li>    
+    </ul>
+            </fieldset>
+        <fieldset>
 <legend>Сортировка:</legend>
 <!-- я правильно понимаю,что тут селекты?-->
 </fieldset>
-            <input type="submit" id="show"value="Показать" outinput="#">
+<input type="submit" id="show"value="Показать" outinput="#">
           </form>
       </section>
      <section class="catalogs">
 <ul class="catalog-one">
 <li class="catalog-item">
-              <a href="item.html">
-                  <p class="item-name">Перфоратор  BOSH 2</p>
-              </a> 
-<p class="item-image">
-                <img src="img/bosh-2.jpg" width="#" height="#" alt="Перфоратор BOSH 2">     
-              </p>
-            <p class="item-price">
-              <b>22 500 ₽</b>
-                <b>15 500</b></p></li>
-<li class="catalog-item">
-              <a href="item.html">
-                  <p class="item-name">Перфоратор  BOSH 2</p>
-              </a> 
-<p class="item-image">
-                <img src="img/bosh-2.jpg" width="#" height="#" alt="Перфоратор BOSH 2">     
-              </p>
-            <p class="item-price">
-              <b>22 500 ₽</b>
-                <b>15 500</b></p></li>
-<li class="catalog-item">
-              <a href="item.html">
-                  <p class="item-name">Перфоратор  BOSH 2</p>
-              </a> 
-<p class="item-image">
-                <img src="img/new.jpg" width="#" height="#" alt="Новый товар">
-                <img src="img/bosh-2.jpg" width="#" height="#" alt="Перфоратор BOSH 2">     
-              </p>
-            <p class="item-price new-item">
-                <b>15 500</b>
-                <a class="button-buy-hover" href="#">Купить</a>
-                <a class="button-bookmark-hover" href="#">В закадки</a>
-    </p>
-    </li>
-         </ul>
+    <span class="flag flag-new">Новинка</span> 
+    <p class="actions">
+        <a class="button-buy" href="#">Купить</a>
+        <a class="button-bookmark" href="#">В закладки</a>
+    <p class="catalog-item-image">
+        <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+    <a href="catalog-item.html">
+                <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+              </a>
+    <p class="catalog-item-discount">32 500 ₽</p>
+    <p class="catalog-item-price">25 500 </p>
+          </li>
+    <li class="catalog-item">
+    <span class="flag flag-new">Новинка</span> 
+    <p class="actions">
+        <a class="button-buy" href="#">Купить</a>
+        <a class="button-bookmark" href="#">В закладки</a>
+    <p class="catalog-item-image">
+        <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+    <a href="catalog-item.html">
+                <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+              </a>
+    <p class="catalog-item-discount">32 500 ₽</p>
+    <p class="catalog-item-price">25 500 </p>
+          </li>
+    <li class="catalog-item">
+    <span class="flag flag-new">Новинка</span> 
+    <p class="actions">
+        <a class="button-buy" href="#">Купить</a>
+        <a class="button-bookmark" href="#">В закладки</a>
+    <p class="catalog-item-image">
+        <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+    <a href="catalog-item.html">
+                <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+              </a>
+    <p class="catalog-item-discount">32 500 ₽</p>
+    <p class="catalog-item-price">25 500 </p>
+          </li>
+    </ul>
 <ul class="catalog-2">
 <li class="catalog-item">
-              <a href="item.html">
-                  <p class="item-name">Перфоратор  BOSH 2</p>
-              </a> 
-<p class="item-image">
-                <img src="img/bosh-2.jpg" width="#" height="#" alt="Перфоратор BOSH 2">     
-              </p>
-            <p class="item-price">
-              <b>22 500 ₽</b>
-                <b>15 500</b></p></li>
-<li class="catalog-item">
-              <a href="item.html">
-                  <p class="item-name">Перфоратор  BOSH 2</p>
-              </a> 
-<p class="item-image">
-    <img src="img/new.jpg" width="#" height="#" alt="Новый товар">
-                <img src="img/bosh-2.jpg" width="#" height="#" alt="Перфоратор BOSH 2">     
-              </p>
-            <p class="item-price new-item">
-              <b>22 500 ₽</b>
-                <b>15 500</b></p></li>
-         <li class="catalog-item">
-              <a href="item.html">
-                  <p class="item-name">Перфоратор  BOSH 2</p>
-              </a> 
-<p class="item-image">
-                <img src="img/bosh-2.jpg" width="#" height="#" alt="Перфоратор BOSH 2">     
-              </p>
-            <p class="item-price">
-                <b>15 500</b>
-             </p>
-    </li>
-         </ul>
-<ul class="catalog=3">
+    <span class="flag flag-new">Новинка</span> 
+    <p class="actions">
+        <a class="button-buy" href="#">Купить</a>
+        <a class="button-bookmark" href="#">В закладки</a>
+    <p class="catalog-item-image">
+        <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+    <a href="catalog-item.html">
+                <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+              </a>
+    <p class="catalog-item-discount">32 500 ₽</p>
+    <p class="catalog-item-price">25 500 </p>
+          </li>
     <li class="catalog-item">
-              <a href="item.html">
-                  <p class="item-name">Перфоратор  BOSH 2</p>
-              </a> 
-<p class="item-image">
-    <img src="img/new.jpg" width="#" height="#" alt="Новый товар">
-                <img src="img/bosh-2.jpg" width="#" height="#" alt="Перфоратор BOSH 2">     
-              </p>
-            <p class="item-price new-item">
-              <b>22 500 ₽</b>
-                <b>15 500</b>
-        </p>
-    </li>
+        <span class="flag flag-new">Новинка</span> 
+        <p class="actions">
+            <a class="button-buy" href="#">Купить</a>
+            <a class="button-bookmark" href="#">В закладки</a>
+            <p class="catalog-item-image">
+                <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+        <a href="catalog-item.html">
+            <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+            </a>
+        <p class="catalog-item-discount">32 500 ₽</p>
+        <p class="catalog-item-price">25 500 </p>
+        </li>
 <li class="catalog-item">
-              <a href="item.html">
-                  <p class="item-name">Перфоратор  BOSH 2</p>
-              </a> 
-<p class="item-image">
-                <img src="img/bosh-2.jpg" width="#" height="#" alt="Перфоратор BOSH 2">     
-              </p>
-            <p class="item-price">
-              <b>22 500 ₽</b>
-                <b>15 500</b>
-    </p>
-    </li>
+    <span class="flag flag-new">Новинка</span> 
+    <p class="actions">
+        <a class="button-buy" href="#">Купить</a>
+        <a class="button-bookmark" href="#">В закладки</a>
+    <p class="catalog-item-image">
+        <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+    <a href="catalog-item.html">
+                <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+              </a>
+    <p class="catalog-item-discount">32 500 ₽</p>
+    <p class="catalog-item-price">25 500 </p>
+          </li>
     <li class="catalog-item">
-              <a href="item.html">
-                  <p class="item-name">Перфоратор  BOSH 2</p>
-              </a> 
-<p class="item-image">
-                <img src="img/bosh-2.jpg" width="#" height="#" alt="Перфоратор BOSH 2">     
-              </p>
-            <p class="item-price">
-                <b>15 500</b>
-             </p>
-    </li>
+        <span class="flag flag-new">Новинка</span> 
+        <p class="actions">
+            <a class="button-buy" href="#">Купить</a>
+            <a class="button-bookmark" href="#">В закладки</a>
+            <p class="catalog-item-image">
+                <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+        <a href="catalog-item.html">
+            <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+            </a>
+        <p class="catalog-item-discount">32 500 ₽</p>
+        <p class="catalog-item-price">25 500 </p>
+        </li>
+    </ul>
+         <ul class="catalog=3">
+             <li class="catalog-item">
+    <span class="flag flag-new">Новинка</span> 
+    <p class="actions">
+        <a class="button-buy" href="#">Купить</a>
+        <a class="button-bookmark" href="#">В закладки</a>
+    <p class="catalog-item-image">
+        <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+    <a href="catalog-item.html">
+                <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+              </a>
+    <p class="catalog-item-discount">32 500 ₽</p>
+    <p class="catalog-item-price">25 500 </p>
+          </li>
+    <li class="catalog-item">
+        <span class="flag flag-new">Новинка</span> 
+        <p class="actions">
+            <a class="button-buy" href="#">Купить</a>
+            <a class="button-bookmark" href="#">В закладки</a>
+            <p class="catalog-item-image">
+                <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+        <a href="catalog-item.html">
+            <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+            </a>
+        <p class="catalog-item-discount">32 500 ₽</p>
+        <p class="catalog-item-price">25 500 </p>
+        </li>
+             <li class="catalog-item">
+    <span class="flag flag-new">Новинка</span> 
+    <p class="actions">
+        <a class="button-buy" href="#">Купить</a>
+        <a class="button-bookmark" href="#">В закладки</a>
+    <p class="catalog-item-image">
+        <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+    <a href="catalog-item.html">
+                <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+              </a>
+    <p class="catalog-item-discount">32 500 ₽</p>
+    <p class="catalog-item-price">25 500 </p>
+          </li>
+             <li class="catalog-item">
+        <span class="flag flag-new">Новинка</span> 
+        <p class="actions">
+            <a class="button-buy" href="#">Купить</a>
+            <a class="button-bookmark" href="#">В закладки</a>
+            <p class="catalog-item-image">
+                <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+        <a href="catalog-item.html">
+            <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+            </a>
+        <p class="catalog-item-discount">32 500 ₽</p>
+        <p class="catalog-item-price">25 500 </p>
+        </li>
+    <li class="catalog-item">
+    <span class="flag flag-new">Новинка</span> 
+    <p class="actions">
+        <a class="button-buy" href="#">Купить</a>
+        <a class="button-bookmark" href="#">В закладки</a>
+    <p class="catalog-item-image">
+        <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+    <a href="catalog-item.html">
+                <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+              </a>
+    <p class="catalog-item-discount">32 500 ₽</p>
+    <p class="catalog-item-price">25 500 </p>
+          </li>
+             <li class="catalog-item">
+        <span class="flag flag-new">Новинка</span> 
+        <p class="actions">
+            <a class="button-buy" href="#">Купить</a>
+            <a class="button-bookmark" href="#">В закладки</a>
+            <p class="catalog-item-image">
+                <img src="img/bosh-1.jpg" width="184" height="164" alt="Перфоратор BOSH 1">
+            </p>
+        <a href="catalog-item.html">
+            <p class="catalog-item-name">Перфоратор  BOSH 1</p>
+            </a>
+        <p class="catalog-item-discount">32 500 ₽</p>
+        <p class="catalog-item-price">25 500 </p>
+        </li>
          </ul>
          <ul class="pagination-list">
           <li class="pagination-item pagination-item-current"><a>1</a></li>
@@ -218,7 +319,7 @@
           <li><a href="company.html">Компания</a></li>
           <li><a href="catalog.html">Каталог</a></li>
           <li><a href="news.html">Новости</a></li>
-          <li><a href="courier.html">Доставка</a></li>
+          <li><a href="delivery.html">Доставка</a></li>
           <li><a href="contacts.html">Контакты</a></li>
           <li><a href="materials.html">Материалы</a></li>
           <li><a href="tech.html">Техника</a></li>
