@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Cuprum', 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  background-image: url("img/background.jpg");
+  background-position: top center;
+}
+a {
+  text-decoration: none;
+}
+.visually-hidden {
+  display: none;
+}
+.button-popular {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #ee3643;
+  border: none;
+}
+.button-popular:hover {
+    background-color:#ca2c37;
+}
+.button-popular:active {
+    background-color:#ba2732;
+}
+.main-top-menu {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    
+    background-color: #293449;
+}
+.top-menu-buttons {
+  list-style: none;
+}
+.top-menu-buttons a {
+  color:white;
+}
+.top-menu-button a:hover {
+    background-color: #212a3a;
+}
+.top-menu-button a:active {
+    background-color: #161d29;
+}
+.about-us {
+    background-color: #f3f7f8;
+}
+.main-info,
+.user-buttons {
+    list-style: none;
+}
+.main-info .information p {
+    font-size: 16px;
+    line-height: 23px;
+    font-style: italic;
+    color:#ee3643;
+}
+.main-info .contacts p{
+    font-size: 21px;
+    line-height: 21px;
+    font-style: normal;
+    color:#ee3643;
+} 
+.main-info .contacts p {
+    font-size: 14px;
+    line-height: 24px;
+    color:32425c;
+}
+.user-buttons a {
+    font-size: 21px;
+    line-height: 21px;
+    color:black;
+    
+    background-color: white;
+}
+.main-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    
+    background-color: #32425c;
+}
+.site-navigation,
+.down-site-navigation {
+    list-style: none;
+}
+.site-navigation a {
+    color:white;
+}
+.site-navigation a:hover{
+    background-color: #293449;
+}
+.site-navigation a:active {
+    background-color: #1d2739;
+}
+.menu-list {
+    list-style: none;
+}
+.menu-items p {
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+}
+.menu-items a {
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    background-color: #e5e5e5;
+}
+.menu-items a:hover {
+    background-color: #cccccc;
+}
+.menu-items a:active {
+    background-color: #b2b2b2;
+}
+.menu-list .menu-items:first-child {
+  background-color: #ffbf47;
+}
+.menu-list .menu-items:nth-child(2){
+  background-color: #3bbce3;
+}
+.menu-list .menu-items:nth-child(3){
+  background-color: #dc91d8;
+}
+.menu-list .menu-items:nth-child(4){
+  background-color: #8ed78f;
+}
+.menu-list .menu-items:nth-child(5){
+  background-color: #ffc047;
+}
+.slider {
+  display:none;
+}
+.popular-section {
+  background-color: #f9f5f0;
+}
+.popular-section h1 {
+    font-size:30px;
+    line-height:30px;
+    color: #32425c; 
+}
+.popular-section a {
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+}
+.popular-items-list {
+  list-style: none;
+  
+  background-color: white;
+}
+.popular-items h1 {
+    font-size:30px;
+    line-height:30px;
+    color: #32425c;
+}
+.popular-item p {
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+}
+.popular-dealers-list {
+  list-style: none;
+  
+  background-color: white;
+}
+.servises {
+  display: none;
+}
+.about-company {
+  color: black;
+}
+.about-company h1 {
+  font-size: 30px;
+  line-height:30px;
+}
+.about-company p {
+  font-size: 13px;
+  line-height:24px;
+}
+.down-info {
+  list-style:none;
+}
+.down-cite-navigation {
+    background-color:   #32425c;
+}
+.down-site-navigation a{
+  color:white;
+}
+.down-site-navigation a:hover{
+    background-color: #293449;
+}
+.down-site-navigation a:active {
+    background-color: #1d2739;
+}
+.main-page-footer {
+    background-color: #293449;
+}
+.social-buttons {
+  list-style: none;
+}
