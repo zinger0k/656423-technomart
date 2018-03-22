@@ -66,7 +66,7 @@
     <main class="Content">
 <section class="catalog-title">
         <ul class="perforators">
-        <li><a href="index.html"><img src="home.jpeg"></a></li>
+        <li><a href="index.html"><img src="home.jpeg" alt="Главная страница"></a></li>
         <li><a href="catalog.html">Каталог</a></li>
         <li><a href="instruments.html">Инструмент</a></li>
         <li class="perforators-current">Перфораторы</li>
@@ -78,37 +78,46 @@
         <form action="/echo" method="post" oninput="#">
 <fieldset>
                 <legend>Фильтр:</legend>
-<label for="item-price"><h2>Цена:</h2></label>
+<label for="item-price"></label>
+    <h2>Цена:</h2>
     <span>0</span><input type="range" id="item-price" min="0" max="30000" step="1000"><span>3000</span>>
-<label for="item-dealer"><h2>Производители:</h2></label>
+    <h2>Производители:</h2>
 <ul class="checboxes">
 <li class="checkbox-item">
-<input type="checkbox" id="item-dealer" checked>Bosh</li>
+<label for="item-bosh"></label>
+<input type="checkbox" id="item-bosh" checked>Bosh</li>
 <li class="checkbox-item">
-<input type="checkbox" id="item-dealer">Интерскол</li>
+    <label for="item-interscol"></label>
+<input type="checkbox" id="item-interscol">Интерскол</li>
 <li class="checkbox-item">
-<input type="checkbox" id="item-dealer" checked>Makita</li>
+    <label for="item-makita"></label>
+<input type="checkbox" id="item-makita" checked>Makita</li>
 <li class="checkbox-item">
-<input type="checkbox" id="item-dealer">Dewalt</li>
+    <label for="item-dewalt"></label>
+<input type="checkbox" id="item-dewalt">Dewalt</li>
 <li class="checkbox-item">
-<input type="checkbox" id="item-dealer">Hitachi</li>
+    <label for="item-hitachi"></label>
+<input type="checkbox" id="item-hitachi">Hitachi</li>
 </ul>
-    <label for="power-type-acc"><h2>Питание:</h2></label>
+    <h2>Питание:</h2>
     <ul class="radios">
     <li class="radio-item">
-        <input type="radio" id="power-type-acc">Аккумуляторные</li>
+        <label for="power-acc"></label>
+        <input type="radio" id="power-acc">Аккумуляторные</li>
     <li class="radio-item">
-        <input type="radio" id="power-type-acc">Сетевые</li>    
+        <label for="power-set"></label>
+        <input type="radio" id="power-set">Сетевые</li>    
     </ul>
             </fieldset>
         <fieldset>
 <legend>Сортировка:</legend>
 <!-- я правильно понимаю,что тут селекты?-->
 </fieldset>
-<input type="submit" id="show"value="Показать" outinput="#">
+<input type="submit" id="show" value="Показать">
           </form>
       </section>
      <section class="catalogs">
+<h1 class="visually-hidden">Каталог Товаров</h1>
 <ul class="catalog-one">
 <li class="catalog-item">
     <span class="flag flag-new">Новинка</span> 
@@ -303,18 +312,19 @@
           <li class="pagination-item"><a href="#">3</a></li>
           <li class="pagination-next"><a href="#">Следующая</a></li>
         </ul>
-        </section>
+        </section></main>
                 <section class="servises">
 <!--прочитаю на днях-->
                     <h1>Пара слов о перфораторах</h1>
                     <p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и дробления отверстий в кирпиче,бетоне и камне.</p>
                     <p>Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуроповерта и отбойного молотка. В ассортиментном ряду есть выбор трехреимников: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p><br></section>
             <section class="down-cite-navigation">
+                <h1 class="visually-hidden">Навигация по разделам</h1>
                 <a class="main-header-logo">
                     <img src="img/index-logo.svg" width="368" height="153" alt="Техномарт"></a>
           <p>8 888 888 88 88</p>
-          <p>г.Санкт-Петербург, ул.Б.Конюшенная,д. 19/8</p></section>
-              <nav class="down-navigation">
+                <p>г.Санкт-Петербург, ул.Б.Конюшенная,д. 19/8</p>
+             <nav class="down-navigation">
       <ul class="down-site-navigation">
           <li><a href="company.html">Компания</a></li>
           <li><a href="catalog.html">Каталог</a></li>
@@ -324,16 +334,16 @@
           <li><a href="materials.html">Материалы</a></li>
           <li><a href="tech.html">Техника</a></li>
           <li><a href="instruments.html">Инструмент</a></li>
-          <li><a href="sale.html">Спецпредложения</a></li></ul></nav>
+          <li><a href="sale.html">Спецпредложения</a></li></ul></nav></section>
         <footer class="main-page-footer">
             <p class="footer-copyright">
         2011-2017 Компания Техномарт
          Все права защищены </p>
               <div class="footer-social">
         <ul>
-          <li><a class="social-button" href="#"><img src="vk.html" name="Вконтакте"></a></li>
-          <li><a class="social-button" href="#"><img src="face.html" name="Фейсбук"></a></li>
-          <li><a class="social-button" href="#"><img src="inst.html" name="Инстаграм"></a></li>
+          <li><a class="social-button" href="#"><img src="vk.html" alt="Вконтакте"></a></li>
+          <li><a class="social-button" href="#"><img src="face.html" alt="Фейсбук"></a></li>
+          <li><a class="social-button" href="#"><img src="inst.html" alt="Инстаграм"></a></li>
         </ul></div>
         <p class="footer-copyright">
         Обратная связь :
