@@ -51,7 +51,6 @@
               <a class="user-personal" href="#">Личный кабинет</a>
           </li>
           </ul>
-    </header>
       <nav class="main-navigation">
       <ul class="site-navigation">
           <li><a href="main.html">Главная</a></li>
@@ -63,58 +62,69 @@
           <li><a href="contacts.html">Контакты</a></li>
           </ul>
           </nav>
+      </header>
     <main class="Content">
 <section class="catalog-title">
-        <ul class="perforators">
-        <li><a href="index.html"><img src="home.jpeg" alt="Главная страница"></a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="instruments.html">Инструмент</a></li>
+    <ul class="perforators">
+        <li><a href="index.html"><img src="home.jpeg" alt="Главная страница"></a>
+            </li>
+        <li><a href="catalog.html">Каталог</a>
+            </li>
+        <li><a href="instruments.html">Инструмент</a>
+            </li>
         <li class="perforators-current">Перфораторы</li>
-      </ul>
-<h1>Перфораторы</h1>
-</section>
+        </ul>
+    <h1>Перфораторы</h1>
+    </section>
       <section class="filters">      
         <h1 class="visually-hidden">Фильтры</h1>
-        <form action="/echo" method="post" oninput="#">
+        <form class="filter" action="#" method="get" oninput="#">
 <fieldset>
-                <legend>Фильтр:</legend>
-<label for="item-price"></label>
+    <legend>Фильтр:</legend>
+    <label for="item-price"></label>
     <h2>Цена:</h2>
     <span>0</span><input type="range" id="item-price" min="0" max="30000" step="1000"><span>3000</span>>
     <h2>Производители:</h2>
-<ul class="checboxes">
-<li class="checkbox-item">
-<label for="item-bosh"></label>
-<input type="checkbox" id="item-bosh" checked>Bosh</li>
-<li class="checkbox-item">
-    <label for="item-interscol"></label>
-<input type="checkbox" id="item-interscol">Интерскол</li>
-<li class="checkbox-item">
-    <label for="item-makita"></label>
-<input type="checkbox" id="item-makita" checked>Makita</li>
-<li class="checkbox-item">
-    <label for="item-dewalt"></label>
-<input type="checkbox" id="item-dewalt">Dewalt</li>
-<li class="checkbox-item">
-    <label for="item-hitachi"></label>
-<input type="checkbox" id="item-hitachi">Hitachi</li>
-</ul>
+    <ul>
+        <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Bosh" id="filter-bosh" checked>
+            <label for="filter-bosh">Bosh</label>
+            </li>
+    <li class="filter-option">
+        <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="interscol" id="filter-interscol" checked>
+        <label for="filter-interscol">Интерскол</label>
+        </li>
+    <li class="filter-option">
+        <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="makita" id="filter-makita" checked>
+    <label for="filter-makita">Makita</label>
+        </li>
+    <li class="filter-option">
+        <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="dewalt" id="filter-dewalt" checked>
+        <label for="filter-dewalt">Dewalt</label>
+        </li>
+    <li class="filter-option">
+        <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Hitachi" id="filter-hitachi" checked>
+        <label for="filter-hitachi">>Hitachi</label>
+        </li>
+    </ul>
     <h2>Питание:</h2>
-    <ul class="radios">
-    <li class="radio-item">
-        <label for="power-acc"></label>
-        <input type="radio" id="power-acc">Аккумуляторные</li>
-    <li class="radio-item">
-        <label for="power-set"></label>
-        <input type="radio" id="power-set">Сетевые</li>    
+    <ul>
+        <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="power-type" value="acc" id="filter-acc" checked>
+        <label for="filter-acc">Аккумуляторные</label>
+        </li>
+    <li class="filter-option">
+        <input class="visually-hidden filter-input filter-input-radio" type="radio" name="power-type" value="set" id="filter-set" checked>
+        <label for="filter-set">Сетевые</label>
+</li>    
     </ul>
             </fieldset>
         <fieldset>
 <legend>Сортировка:</legend>
 <!-- я правильно понимаю,что тут селекты?-->
 </fieldset>
-<input type="submit" id="show" value="Показать">
-          </form>
+            <button type="submit" class="filter-button">Показать</button>
+            </form>
       </section>
      <section class="catalogs">
 <h1 class="visually-hidden">Каталог Товаров</h1>
@@ -310,7 +320,7 @@
           <li class="pagination-item pagination-item-current"><a>1</a></li>
           <li class="pagination-item"><a href="#">2</a></li>
           <li class="pagination-item"><a href="#">3</a></li>
-          <li class="pagination-next"><a href="#">Следующая</a></li>
+          <li class="pagination-item"><a href="#">Следующая</a></li>
         </ul>
         </section></main>
                 <section class="servises">

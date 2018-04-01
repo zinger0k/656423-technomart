@@ -1,0 +1,493 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+
+  background-color:white;
+  background-image: url("img/b.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+.visually-hidden {
+  display: none;
+}
+.button-popular {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #ee3643;
+  border: none;
+}
+.button-popular:hover {
+    background-color:#ca2c37;
+}
+.button-popular:active {
+    background-color:#ba2732;
+}
+}
+
+body,html {
+min-width: 1122px;
+  min-height: 1750px;
+}
+.container {
+  width: 945px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-header {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  margin-bottom: 75px;
+
+  /* Временно для сетки */
+  min-height: 320px;
+}
+
+.main-header-logo {
+  width: 220px;
+  height: 0;
+}
+.wrapper-menu {
+  padding:0;
+  margin:0;
+  width:100%;
+}
+
+.top-menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width:945px;
+  margin:0;
+  margin-bottom: 40px;
+  padding: 0;
+  
+  list-style: none;
+  background-color:#293449;
+  
+}
+.top-menu-buttons a {
+  display:block;
+  padding: 15px 20px;
+
+  vertical-align: middle;
+  color:white;
+}
+.top-menu-button a:hover {
+    background-color: #212a3a;
+}
+.wrapper {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  width:100%;
+  min-height:400px;
+  background-color:#f3f7f8;
+}
+.info-wrapper .container {
+  display: flex;
+  padding:0;
+  margin:0;
+}
+
+.info-wrapper {
+  margin-bottom: 40px;
+}
+.main-info {
+  width:315px;
+   margin:0;
+   padding: 0;
+  
+  list-style: none;
+  background-color:transparent;
+}
+.contacts {
+  width:315px;
+   margin: 0;
+   padding: 0;
+  
+  list-style: none;
+  background-color:transparent;
+}
+.user-buttons {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.user-buttons a {
+    display: block;
+    margin: 10px;
+    padding: 15px 15px;
+    font-size: 21px;
+    line-height: 21px;
+    color:black;
+    list-style:none;
+    
+    background-color: white;
+}
+.main-navigation,
+.down-site-navigation {
+  display:flex;
+  justify-content:space-between;
+  width:945px;
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+  background-color:#32425c;
+}
+.main-navigation a,
+.down-site-navigation a{
+    display:block;
+    color:white;
+    padding:25px 20px;
+    
+    vertical-align: middle;
+  }
+.main-navigation a:hover {
+    background-color: #212a3a;
+}
+
+.menu-list {
+  display:block;
+  flex-wrap:wrap;
+    list-style: none;
+}
+.menu-items p {
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+}
+.menu-items a {
+  display:block;
+  vertical-align: middle;
+  padding:10px 10px;
+  width:40%;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    background-color: #e5e5e5;
+}
+.menu-items a:hover {
+    background-color: #cccccc;
+}
+.menu-items a:active {
+    background-color: #b2b2b2;
+}
+.menu-list .menu-items:first-child {
+  background-color: #ffbf47;
+}
+.menu-list .menu-items:nth-child(2){
+  background-color: #3bbce3;
+}
+.menu-list .menu-items:nth-child(3){
+  background-color: #dc91d8;
+}
+.menu-list .menu-items:nth-child(4){
+  background-color: #8ed78f;
+}
+.menu-list .menu-items:nth-child(5){
+  background-color: #ffc047;
+}
+.slider {
+  display:none;
+}
+.popular-section {
+
+  background-color: #f9f5f0;
+}
+.popular-section h1 {
+    font-size:30px;
+    line-height:30px;
+    color: #32425c; 
+}
+.popular-section a {
+    margin:10px;
+    padding:10px;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+}
+.popular-items{
+    width:700px;
+    margin:20px auto;
+}
+.popular-item{
+    position:relative;
+    display:inline-block;
+    width:218px;
+    margin-right:20px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    line-height:20px;
+    font-weight:bold;
+    text-align:center;
+}
+.popular-item:nth-child(3n){
+    margin-right:0;
+}
+.popular-items{
+    font-size:0;
+}
+.popular-item{
+    font-size:16px;
+}
+.popular-item .flag{
+    position:absolute;
+    top:-1px;
+    right:-1px;
+    width:60px;
+    height:60px;
+    text-indent:-1000px;
+    overflow:hidden;
+     z-index:20;
+}
+.popular-item .flag-new{
+    background:url("img/new-flag.png") no-repeat 0 0;
+}
+.popular-item .catalog-item-image{
+    width:218px;
+    height:168px;
+}
+.popular-item .popular-item-image img{
+    max-width:100%;
+}
+.popular-item .popular-item-name {
+    min-height:40px;
+    padding:0 25px;
+    margin-top:10px;
+    margin-bottom:15px;    
+}
+.popular-item .popular-item-discount{
+    min-height:20px;
+    margin-top:15px;
+    margin-bottom:10px;
+    color:#999;
+    text-decoration:line-through;
+}
+.popular-item .popular-item-price{
+    position:relative;
+    width:80px;
+    margin:10px auto;
+    margin-bottom:20px;
+    padding:10px 30px;
+    color:white;
+    background:#ee3643;
+    border-radius:3px;
+}
+.popular-item .popular-item-price:after{
+    content:"";
+    position:absolute;
+    top:0;
+    right:-20px;
+    width:0;
+    height:0;
+    border:20px solid white;
+    border-left-color:#ee3643;
+}
+.popular-items-list {
+  list-style: none;
+  
+  background-color: white;
+}
+.popular-items h1 {
+    font-size:30px;
+    line-height:30px;
+    color: #32425c;
+}
+.popular-item p {
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+}
+.popular-dealers-list {
+  list-style: none;
+  
+  background-color: white;
+}
+.popular-dealers{
+    width:700px;
+    margin:20px auto;
+}
+.popular-dealer{
+    position:relative;
+    display:inline-block;
+    width:218px;
+    height:200px;
+    border:1px solid black;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.popular-dealer a {
+  display: flex;
+  flex-wrap: wrap;
+}
+.servises {
+  display: none;
+}
+.index-column {
+   padding: 50px 80px;
+   display: flex;
+   justify-content: space-between;
+   
+   
+  background-image: none;
+  background-color: transparent;
+}
+.about-company {
+  width:450px;
+  
+ /* Временно для сетки */
+ min-height: 315px;
+}
+
+.contacts {
+  width:455px;
+  
+ /* Временно для сетки */
+ min-height: 315px;
+}
+.about-company {
+  color: black;
+}
+.about-company h1 {
+  font-size: 30px;
+  line-height:30px;
+}
+.about-company p {
+  font-size: 13px;
+  line-height:24px;
+}
+.down-info {
+  list-style:none;
+}
+.down-cite-navigation {
+    background-color:   #32425c;
+}
+.down-site-navigation a{
+  color:white;
+}
+.down-site-navigation a:hover{
+    background-color: #293449;
+}
+.down-site-navigation a:active {
+    background-color: #1d2739;
+}
+.main-page-footer {
+  margin:0;
+  padding: 0;
+  
+  color: #ffffff;
+
+  background-color: #293449;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.main-page-footer .container {
+  display: flex;
+}
+
+.footer-copyright-company {
+  width: 320px;
+  margin: 0;
+  margin-right: 80px;
+}
+
+.footer-social {
+  width: 145px;
+  
+  text-align: center;
+}
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 141px;
+  margin: 0 auto;
+  padding: 0;
+  
+  list-style: none;
+}
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 141px;
+  margin: 0 auto;
+  padding: 0;
+  
+  list-style: none;
+}
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+
+  background-color: #000000;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: #ffffff;
+}
+
+.social-button:hover path,
+.social-button:focus path {
+  fill: #000000;
+}
+
+.footer-copyright {
+  width: 150px;
+  margin: 0;
+  margin-left: auto;
+  text-align: center;
+}
+
+.footer-copyright .button {
+  display: block;
+  margin-right: 0;
+}
+
+.footer-copyright b {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+.menu-list {
+  display:flex;
+  padding: 0;
+  margin: 0;
+  min-height: 300;
+}
+.menu-items {
+  width: 300px;
+  height: 125px;
+  margin: 20px;
+  padding-left: 20px;
+}
